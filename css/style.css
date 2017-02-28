@@ -1,0 +1,71 @@
+body{
+	height: 805px;
+}
+.main{
+	width: 550px;
+	height: 805px;
+	border: 2px solid black;
+	margin: auto;
+	overflow: hidden;
+}
+
+.birg{
+	background: url(../img/birg.png);
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	position: relative;
+	top: 390px;
+	left: 22%;
+	z-index: 2;
+	
+}
+
+
+.topBott,.downBott{
+	width: 100px;
+	
+	background:  url(../img/pipe.png);
+	background-size: cover;
+	position: relative;
+	left: 100%;
+	
+}
+
+.topBott{
+	top: -13%;
+	height: 100px;
+	transform: rotate(180deg);
+	margin-bottom: 100px;
+}
+
+.downBott{
+	height: 550px;
+}
+
+.count{
+	position: absolute;
+	z-index: 2;
+	color: black;
+	font-size: 60px;
+	left: 49%;
+}
+
+.text{
+	color: grey;
+	left: 32%;
+	font-size: 90px;
+	top:55%;
+	position: absolute;
+}
+.restart{
+	position: absolute;
+	background: grey;
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 100px;
+	height: 30px;
+	left: 47%;
+	top:25%;
+	display: none;
+}
